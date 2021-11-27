@@ -231,6 +231,20 @@ body {
   color: var(--text-color);
 }
 
+/* Icon */
+.icon-feature {
+  width: inherit;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+
+  border-radius: 4px;
+
+  background-color: var(--bg-color-addition);
+  fill: var(--title-color);
+}
+
 /* Секция Чем мы занимаемся */
 .what-do-we-do {
   padding-bottom: 94px;
