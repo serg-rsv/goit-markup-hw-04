@@ -60,6 +60,8 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -88,6 +90,11 @@ body {
 }
 
 /* Навигация сайта */
+.container.header {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -141,15 +148,11 @@ body {
 }
 /* Icon */
 .icon-envelope {
-  /* width: 16px;
-  height: 12px; */
   margin-right: 10px;
   fill: currentColor;
 }
 
 .icon-smartphone {
-  /* width: 10px;
-  height: 16px; */
   margin-right: 10px;
   fill: currentColor;
 }
@@ -204,11 +207,6 @@ body {
 }
 
 /* Секция Особенности */
-.features > .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .features-list {
   display: flex;
 }
@@ -248,8 +246,9 @@ body {
 }
 
 /* Секция Чем мы занимаемся */
-.what-do-we-do {
-  padding-bottom: 94px;
+.what-do-we-do > .container {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .title-second {
@@ -276,11 +275,6 @@ body {
   background-color: var(--bg-color-addition);
 }
 
-.team-section > .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .team-cards {
   display: flex;
 }
@@ -289,6 +283,10 @@ body {
   text-align: center;
   background-color: var(--color-main);
   line-height: 1.18;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .member-card:not(:last-child) {
@@ -338,6 +336,31 @@ body {
   fill: currentColor;
 }
 
+/* Секция постоянные клиенты */
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-client {
+  display: flex;
+  border-radius: 4px;
+  border: 1px solid var(--icons-color);
+  padding: 16px 32px;
+
+  color: var(--icons-color);
+}
+
+.link-client:hover,
+.link-client:focus {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+/* Icon */
+.icon-client {
+  fill: currentColor;
+}
 /* Footer */
 .basement {
   background-color: var(--bg-color-second);
@@ -374,11 +397,6 @@ body {
 }
 
 /* Портфолио */
-.portfolio > .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .filter {
   display: flex;
   justify-content: center;
