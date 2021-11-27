@@ -11,6 +11,8 @@
   --text-address-link: rgba(255, 255, 255, 0.6);
 
   --accent: #2196f3;
+
+  --icons-color: #afb1b8;
 }
 
 img {
@@ -307,6 +309,33 @@ body {
   margin-bottom: 30px;
 
   font-size: 16px;
+}
+
+/* Icon */
+.icons-list {
+  display: flex;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+}
+
+.link-social {
+  display: flex;
+  padding: 12px;
+  border-radius: 50%;
+
+  color: var(--icons-color);
+}
+
+.link-social:hover,
+.link-social:focus {
+  color: #ffffff;
+  background-color: var(--accent);
+}
+
+.icon-social {
+  fill: currentColor;
 }
 
 /* Footer */
