@@ -58,10 +58,7 @@ body {
 /* CONTAINER */
 .container {
   width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -248,7 +245,6 @@ body {
 /* Секция Чем мы занимаемся */
 .what-do-we-do > .container {
   padding-top: 0;
-  padding-bottom: 0;
 }
 
 .title-second {
